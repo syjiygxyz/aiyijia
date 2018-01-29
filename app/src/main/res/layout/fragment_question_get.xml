@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dip">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dip"
+        android:layout_marginRight="24dip"
+        android:padding="8dip"
+        android:background="@drawable/bg_edit_kuang">
+
+        <TextView
+            android:id="@+id/tv_retrieve1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号"
+            android:textSize="16dip"/>
+
+        <ImageView
+            android:id="@+id/iv_retrieve1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_retrieve1"
+            android:layout_alignTop="@id/tv_retrieve1"
+            android:src="@mipmap/required"/>
+
+        <EditText
+            android:id="@+id/et_retrieve_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_retrieve1"
+            android:layout_marginLeft="8dip"
+            android:background="@null"
+            android:inputType="number"
+            android:hint="请输入手机号"
+            android:textSize="14dip"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:layout_marginLeft="28dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="问题一："/>
+
+        <TextView
+            android:id="@+id/tv_question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:layout_marginLeft="24dip"
+        android:layout_marginRight="24dip"
+        android:padding="8dip"
+        android:background="@drawable/bg_edit_kuang">
+
+        <TextView
+            android:id="@+id/tv_iv_retrieve2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="答案"
+            android:textSize="16dip"/>
+
+        <ImageView
+            android:id="@+id/iv_iv_retrieve2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_iv_retrieve2"
+            android:layout_alignTop="@id/tv_iv_retrieve2"
+            android:src="@mipmap/required"/>
+
+        <EditText
+            android:id="@+id/ed_question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_iv_retrieve2"
+            android:layout_marginLeft="8dip"
+            android:background="@null"
+            android:hint="请输入对应答案"
+            android:textSize="14dip"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:layout_marginLeft="28dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="问题二："/>
+
+        <TextView
+            android:id="@+id/tv_question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:layout_marginLeft="24dip"
+        android:layout_marginRight="24dip"
+        android:padding="8dip"
+        android:background="@drawable/bg_edit_kuang">
+
+        <TextView
+            android:id="@+id/tv_retrieve3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="答案"
+            android:textSize="16dip"/>
+
+        <ImageView
+            android:id="@+id/iv_retrieve3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_retrieve3"
+            android:layout_alignTop="@id/tv_retrieve3"
+            android:src="@mipmap/required"/>
+
+        <EditText
+            android:id="@+id/ed_question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_retrieve3"
+            android:layout_marginLeft="8dip"
+            android:background="@null"
+            android:hint="请输入对应答案"
+            android:textSize="14dip"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:layout_marginLeft="24dip"
+        android:layout_marginRight="24dip"
+        android:padding="8dip"
+        android:background="@drawable/bg_edit_kuang">
+
+        <TextView
+            android:id="@+id/tv_retrieve4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码"
+            android:textSize="16dip"/>
+
+        <ImageView
+            android:id="@+id/iv_retrieve4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_retrieve4"
+            android:layout_alignTop="@id/tv_retrieve4"
+            android:src="@mipmap/required"/>
+
+        <EditText
+            android:id="@+id/et_retrieve_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_retrieve4"
+            android:layout_marginLeft="8dip"
+            android:background="@null"
+            android:hint="请输入您设置的密码"
+            android:textSize="14dip"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:layout_marginLeft="24dip"
+        android:layout_marginRight="24dip"
+        android:padding="8dip"
+        android:background="@drawable/bg_edit_kuang">
+
+        <TextView
+            android:id="@+id/tv_retrieve5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码"
+            android:textSize="16dip"/>
+
+        <ImageView
+            android:id="@+id/iv_retrieve5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_retrieve5"
+            android:layout_alignTop="@id/tv_retrieve5"
+            android:src="@mipmap/required"/>
+
+        <EditText
+            android:id="@+id/et_retrieve_pwd2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_retrieve5"
+            android:layout_marginLeft="8dip"
+            android:background="@null"
+            android:hint="请确认您设置的密码"
+            android:textSize="14dip"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:background="@drawable/blue_button_background"
+        android:text="完成"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/wj_pws_text"/>
+
+</LinearLayout>

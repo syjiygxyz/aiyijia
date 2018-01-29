@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+    <include layout="@layout/common_title_layout"/>
+    <TextView
+        android:id="@+id/tv_evaluate_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dip"
+        android:text="time"
+        android:textSize="16dip"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="16dip"
+        android:background="#F0F0F0"
+        android:layout_marginTop="24dip"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dip"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="0.1dip"
+                android:layout_weight="1"
+                android:background="@color/blackText"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="综合评价"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip"/>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="0.1dip"
+                android:layout_weight="1"
+                android:background="@color/blackText"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <RatingBar
+            android:id="@+id/rb_evaluate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dip"
+            android:numStars="5"/>
+
+        <EditText
+            android:id="@+id/et_evaluate"
+            android:layout_width="match_parent"
+            android:layout_height="120dip"
+            android:background="#F0F0F0"
+            android:hint="购买过后说说你的感受吧！（0-150字）"
+            android:textSize="12dip"
+            android:paddingLeft="8dip"
+            android:paddingTop="8dip"
+            android:maxLength="150"
+            android:gravity="start" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#F0F0F0">
+
+            <CheckBox
+                android:id="@+id/cb_evaluate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:layout_centerVertical="true"
+                android:checked="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="匿名评价"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/cb_evaluate"
+                android:layout_toEndOf="@id/cb_evaluate" />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_evaluate_sure"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@color/app_theme"
+            android:text="提交"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

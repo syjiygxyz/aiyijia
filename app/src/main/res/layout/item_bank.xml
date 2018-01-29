@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/bankitem_line"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="160"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"></TextView>
+
+        <ImageView
+            android:id="@+id/img_bindlist_bankIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"></ImageView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"></TextView>
+
+        <TextView
+            android:id="@+id/tv_bindlist_bankName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="16dip"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"></TextView>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/bank_bg_color"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"></TextView>
+
+        <TextView
+            android:id="@+id/tv_bindlist_bankType"
+            android:layout_width="0dip"
+            android:layout_height="20dip"
+            android:layout_weight="100"
+            android:background="@color/bank_bg_color"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14dip"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="200"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="16"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center|right"
+            android:text="****\t\t****\t\t****"
+            android:textSize="32dip"></TextView>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"></TextView>
+
+        <TextView
+            android:id="@+id/tv_bindlist_bankNum"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:paddingBottom="8dip"
+            android:text="4445"
+            android:textSize="20dip"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_bindlist_bankData"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@color/hintTextColor" />
+
+        <TextView
+            android:id="@+id/tv_bindlist_bankRemove"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/blueText"
+            android:text="解除绑定"
+             />
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="90"-->
+    <!--android:orientation="horizontal">-->
+    <!--<TextView-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="40">-->
+    <!--</TextView>-->
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="绑定日期"-->
+    <!--android:textColor="@color/hintTextColor"-->
+    <!--android:gravity="center">-->
+    <!--</TextView>-->
+    <!--<TextView-->
+    <!--android:id="@+id/tv_bindlist_bankData"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:textColor="@color/hintTextColor"-->
+    <!--android:gravity="center">-->
+    <!--</TextView>-->
+    <!--<TextView-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="20">-->
+    <!--</TextView>-->
+    <!--<TextView-->
+    <!--android:id="@+id/tv_bindlist_bankRemove"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="80"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="12dip"-->
+    <!--android:text="解除绑定"-->
+    <!--android:textColor="@color/blueText">-->
+    <!--</TextView>-->
+    <!--<TextView-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="20">-->
+    <!--</TextView>-->
+    <!--</LinearLayout>-->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dip"-->
+    <!--android:layout_weight="25">-->
+    <!--</TextView>-->
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <include layout="@layout/common_title_layout"/>
+    <EditText
+        android:id="@+id/et_ma"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:background="@null"
+        android:drawableLeft="@mipmap/zc_ma"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="输入您的六位支付密码"
+        android:digits="1234567890"
+        android:inputType="numberPassword"
+        android:singleLine="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/item_divide" />
+    <EditText
+        android:id="@+id/et_ma_new"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:drawableLeft="@mipmap/zc_ma"
+        android:drawablePadding="10dp"
+        android:hint="请确认您的六位支付密码"
+        android:digits="1234567890"
+        android:inputType="numberPassword"
+        android:singleLine="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/item_divide" />
+
+    <TextView
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:background="@drawable/blue_button_background"
+        android:text="完成"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

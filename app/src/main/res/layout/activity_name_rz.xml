@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <include layout="@layout/common_title_layout"/>
+    <EditText
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:background="@null"
+        android:drawableLeft="@mipmap/real_name"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="输入你的真实姓名"
+        android:singleLine="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/item_divide" />
+    <EditText
+        android:id="@+id/tv_card"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:background="@null"
+        android:drawableLeft="@mipmap/id_card"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="输入你的18位身份证号"
+        android:singleLine="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/item_divide" />
+    <EditText
+        android:id="@+id/tv_card_show"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:background="@null"
+        android:drawableLeft="@mipmap/id_card"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="输入你的18位身份证号"
+        android:singleLine="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/item_divide" />
+    <TextView
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:background="@drawable/blue_button_background"
+        android:text="完成"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
+

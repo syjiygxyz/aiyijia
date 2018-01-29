@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/ripple_bg"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_foot_zq_shopcart"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_foot_shopcart_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_tuihuo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dip"
+                android:layout_marginRight="8dip"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_tuihuo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dip"
+                android:layout_marginRight="8dip" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_foot_shopcart_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="春苗店："
+            android:textColor="@color/titleLimitToBuy"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:id="@+id/tv_foot_shopcart_guige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="规格："
+            android:textColor="@color/titleLimitToBuy"
+            android:textSize="14dp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_foot_shopcart_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="元"
+                android:textColor="@color/errorColor"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_foot_shopcart_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:text="×1"
+                android:textSize="20dip" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_tuihuo"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_marginRight="8dip"-->
+    <!--android:layout_marginBottom="8dip"-->
+    <!--android:text="1111"-->
+    <!--/>-->
+
+</LinearLayout>

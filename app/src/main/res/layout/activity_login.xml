@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_title_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dip">
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="62dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/zc_logo1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="账号" />
+
+        <EditText
+            android:id="@+id/ed_login_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dip"
+            android:background="@null"
+            android:layout_gravity="center_vertical"
+            android:hint="账号"
+            android:inputType="phone"
+             />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:layout_marginTop="8dip"
+        android:background="#777777" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="密码" />
+
+        <EditText
+            android:id="@+id/ed_login_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dip"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:hint="密码"
+            android:inputType="textPassword"
+             />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_login_ok"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="32dip"
+        android:background="@drawable/blue_button_background"
+        android:gravity="center"
+        android:text="登录"
+        android:textColor="#FFFFFF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="16dip">
+        <TextView
+            android:id="@+id/tv_zc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/app_theme"
+            android:text="木有账号?注册"/>
+        <TextView
+            android:id="@+id/tv_wj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/app_theme"
+            android:text="忘记密码"/>
+    </RelativeLayout>
+
+</LinearLayout>

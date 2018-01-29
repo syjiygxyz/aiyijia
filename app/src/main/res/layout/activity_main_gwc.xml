@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ayj.aiyijia.activity.maingwc.MainGwcActivity">
+    <include layout="@layout/common_title_layout"/>
+    <com.ayj.aiyijia.view.magicindicator.MagicIndicator
+        android:id="@+id/tp_ly"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <com.ayj.aiyijia.view.CustomViewPager
+        android:id="@+id/ly_pages"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+</LinearLayout>

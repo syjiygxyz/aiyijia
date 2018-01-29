@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/hintTextColor">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40">
+        </TextView>
+
+        <!-- 地址信息 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="360"
+            android:orientation="vertical">
+            <!-- 显示姓名 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="45"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="名字"
+                    android:textColor="@color/blackText"
+                    android:gravity="left|center_vertical">
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_addrItem_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:textSize="12sp"
+                    android:gravity="left|center_vertical">
+                </TextView>
+            </LinearLayout>
+
+            <!-- 显示邮编 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="邮编"
+                    android:textSize="12sp"
+                    android:textColor="@color/dark"
+                    android:gravity="left|center_vertical">
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_addrItem_postCode"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="14"
+                    android:textSize="12sp"
+                    android:gravity="left|center_vertical">
+                </TextView>
+            </LinearLayout>
+
+            <!-- 联系方式 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="联系方式"
+                    android:textSize="12sp"
+                    android:textColor="@color/dark"
+                    android:gravity="left|center_vertical">
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_addrItem_contact"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="14"
+                    android:textSize="12sp"
+                    android:gravity="left|center_vertical">
+                </TextView>
+            </LinearLayout>
+
+            <!-- 所在地区 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="所在地区"
+                    android:textSize="12sp"
+                    android:textColor="@color/dark"
+                    android:gravity="left|center_vertical">
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_addrItem_area"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="14"
+                    android:textSize="12sp"
+                    android:gravity="left|center_vertical">
+                </TextView>
+            </LinearLayout>
+
+            <!-- 详细地址 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="详细地址"
+                    android:textSize="12sp"
+                    android:textColor="@color/dark"
+                    android:gravity="left|center_vertical">
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_addrItem_detailAddr"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="14"
+                    android:textSize="12sp"
+                    android:singleLine="true"
+                    android:gravity="left|center_vertical">
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10">
+            </TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/hintTextColor">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30">
+        </TextView>
+
+        <!-- 修改操作 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="165"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_addrItem_change"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="修改"
+                    android:gravity="center"
+                    android:textColor="@color/blueText">
+                </TextView>
+                <TextView
+                    android:layout_width="1dp"
+                    android:background="@color/white"
+                    android:layout_height="match_parent">
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_addrItem_delate"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="删除"
+                    android:gravity="center"
+                    android:textColor="@color/blueText">
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50">
+            </TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30">
+        </TextView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/hintTextColor">
+    </TextView>
+</LinearLayout>

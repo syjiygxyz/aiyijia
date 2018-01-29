@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">爱医家</string>
+    <!--BaseViewAdapter-->
+    <string name="loading">正在加载中...</string>
+    <string name="load_failed">加载失败，请点我重试</string>
+    <string name="load_end">没有更多数据</string>
+
+    <!--sweet Alert Dialog-->
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="TheNetIsUnAble">当前网络不可用,请检查网络</string>
+    <!--二维码-->
+    <color name="scan_corner_color">#0effc2</color>
+    <!--门店管理-->
+    <array name="zh_pwd">
+        <item>手机找回</item>
+        <item>邮箱找回</item>
+        <item>提示找回</item>
+    </array>
+
+    <!--购物车-->
+    <array name="main_gwc">
+        <item>折扣商铺</item>
+        <item>邻家小店</item>
+        <item>春苗热柜</item>
+        <item>公司统一商城</item>
+    </array>
+
+
+    <!--健康记录-->
+    <array name="jk_jl">
+        <item>艾灸仪</item>
+        <item>超声波</item>
+        <item>血糖仪</item>
+        <item>血压仪</item>
+    </array>
+
+    <!--现货架-->
+    <array name="xhj_titles">
+        <item>销售商品</item>
+        <item>体验商品</item>
+        <item>促销商品</item>
+    </array>
+    <string name="CompanyName">公司名称</string>
+    <string name="CompanyAddr">公司地址</string>
+    <string name="CompanyWeb">公司网址</string>
+    <string name="helpfulHints">重新绑定后，之前的绑定的手机号码将不能作为登录凭证</string>
+    <!--服务点详情-->
+    <array name="fwd_titles">
+        <item>人员</item>
+        <item>实景</item>
+        <item>评价</item>
+    </array>
+
+    <array name="dd_titles">
+        <item>全部</item>
+        <item>待付款</item>
+        <item>待发货</item>
+        <item>待收货</item>
+        <item>评价/退款</item>
+    </array>
+    <array name="lc_titles">
+        <item>全部</item>
+        <item>待发货</item>
+        <item>待收货</item>
+        <item>评价/退款</item>
+    </array>
+
+    <array name="lxj_titles">
+        <item>未支付</item>
+        <item>已支付</item>
+    </array>
+
+    <array name="dsj_titles">
+        <item>未使用</item>
+        <item>已使用</item>
+        <item>已过期</item>
+    </array>
+
+    <string name="ensure">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="cancel">取消</string>
+
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="app_tip">提示</string>
+
+    <!--充值-->
+    <string name="cz_sm">1.已充金额可在爱医家平台的任何商城消费;\n2.凡在爱医家平台使用会员钱包一律8折结算（折扣铺除外）在折扣铺按照会员等级享受折扣;\n3.累积充值达到相应额度可以升级到相应的会员等级，在折扣店铺内可以按等级享受相应折扣，以此类推;\n4.最终解释权归爱医家平台所有</string>
+    <!--保险-->
+    <string name="insurance_platform_title">中联金安保险经纪第三方平台</string>
+    <string name="hot">热推</string>
+    <string name="carInsurance">车辆保险</string>
+    <string name="familyInsurance">家庭保险</string>
+    <string name="choiceness">精选</string>
+    <string name="accidentInsurance">意外保险</string>
+    <string name="propertyInsurance">财产保险</string>
+    <string name="insurance_name">姓名:</string>
+    <string name="insurance_price_all">商业险总价:</string>
+
+    <string name="pleaseWriteAddrInfo">请填写详细地址</string>
+    <string name="pleaseWritePostCode">请填写邮政编码</string>
+    <string name="pleaseWriteName">请填写收货人姓名</string>
+    <string name="pleaseWriteNum">请填写手机号码</string>
+    <string name="pleaseWriteContact">请填写联系方式</string>
+    <string name="pleaseWriteProvinceid">请填写省名称</string>
+    <string name="pleaseWriteCity">请填写市名称</string>
+    <string name="pleaseWriterAddr">请填写区名称</string>
+    <string name="pleaseWriteAreaNum">请填写区号</string>
+    <string name="pleaseWriteOtherNum">请填写座机号或者座机分机号</string>
+    <string name="pleaseWritePhoneNum">请正确填写手机号码</string>
+    <!--会员卡-->
+    <string name="hyk_main">3满足国家退休年龄的老人可选择康乐A卡(含低保人员),\n购买时需上传身份证正反面。</string>
+    <string name="hyk_detail">1.满足国家法定退休年龄的老人（含低\n保人员）购买，购买时需上传身份证正\n反面。\n\n2.会员可以每天任选艾灸，超声，汗蒸\n进行预约，在预约时间后的两小时内到\n店即可服务，一天一次，不可叠加；\n\n3.会员可以每天到康乐小屋领取1500ml\n的富氢水，领取时需自带容器</string>
+    <string name="hyk_detail_b">1.会员可以每天任选艾灸，超声，汗蒸\n进行预约，在预约时间后的两小时内到\n店即可服务，一天一次，不可叠加；\n\n2.会员可以每天到康乐小屋领取1500ml\n的富氢水，领取时需自带容器</string>
+    <string name="prb_default_symbolic_string">$</string>
+
+    <string name="wj_pws_text">如果召回方式都为无效\n却能够联系人工客服:0512-68799599</string>
+</resources>

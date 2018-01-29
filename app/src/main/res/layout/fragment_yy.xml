@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray">
+    <TextView
+        android:id="@+id/tv_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/zwsjjj"
+        android:drawablePadding="@dimen/dp_10"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="暂无数据"/>
+    <cn.finalteam.loadingviewfinal.PtrClassicFrameLayout
+        android:id="@+id/pcf_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.finalteam.loadingviewfinal.RecyclerViewFinal
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            app:noLoadMoreHideView="true"
+            />
+    </cn.finalteam.loadingviewfinal.PtrClassicFrameLayout>
+</RelativeLayout>

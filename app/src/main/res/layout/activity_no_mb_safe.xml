@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E6E6E6"
+    tools:context="com.ayj.aiyijia.activity.personcenter.safecenter.NoMbSafeActivity">
+    <include layout="@layout/common_title_layout"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dip"
+        android:text="为保证您账号的安全请设置密保问题"
+        android:textSize="16dip"
+        />
+
+    <TextView
+        android:id="@+id/tv_select_problem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dip"
+        android:text="选择问题"
+        android:textSize="16dip"
+        android:textColor="@color/titleLimitToBuy"
+        android:background="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/et_answer_problem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dip"
+        android:hint="1-19个中文或2-38个英文"
+        android:textSize="16dip"
+        android:textColor="@color/titleLimitToBuy"
+        android:background="@color/white"
+        android:layout_marginTop="1dip"
+        />
+
+    <TextView
+        android:id="@+id/tv_select_problem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dip"
+        android:text="选择问题"
+        android:textSize="16dip"
+        android:textColor="@color/titleLimitToBuy"
+        android:background="@color/white"
+        android:layout_marginTop="16dip"
+        />
+
+    <EditText
+        android:id="@+id/et_answer_problem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dip"
+        android:hint="1-19个中文或2-38个英文"
+        android:textSize="16dip"
+        android:textColor="@color/titleLimitToBuy"
+        android:background="@color/white"
+        android:layout_marginTop="1dip"
+        />
+
+    <Button
+        android:id="@+id/btn_save_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:layout_marginLeft="32dip"
+        android:layout_marginRight="32dip"
+        android:text="保存"
+        android:textColor="@color/white"
+        android:background="@drawable/blue_button_background"/>
+</LinearLayout>

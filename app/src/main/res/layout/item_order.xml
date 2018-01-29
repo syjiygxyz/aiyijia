@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@mipmap/bg_order"
+    android:paddingLeft="8dip"
+    android:paddingTop="8dip"
+    android:paddingRight="8dip"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout_item_order1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_order_item_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dip"
+                />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tv_order_item_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="state"
+                android:textSize="12dip"
+                android:textColor="@color/app_theme"
+                android:layout_marginRight="8dip"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dip"
+            android:background="#E6E6E6"
+            android:layout_below="@id/tv_order_item_id"
+            android:layout_marginTop="8dip"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/tv_order_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="time"
+                />
+
+            <TextView
+                android:id="@+id/tv_order_item_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="type"
+                android:layout_below="@id/tv_order_item_time"
+                android:layout_marginTop="8dip"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/xzjtttt"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dip" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_item_order2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dip"
+            android:background="#E6E6E6"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dip"
+            android:paddingBottom="8dip"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="合计："/>
+
+            <TextView
+                android:id="@+id/tv_order_item_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/errorColor"
+                />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/tv_orderinfo_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/app_theme"
+                android:textSize="12dip"
+                android:background="@drawable/gray_button_background"
+                android:paddingTop="8dip"
+                android:paddingBottom="8dip"
+                android:visibility="gone"
+                android:paddingLeft="12dip"
+                android:paddingRight="12dip"
+                />
+
+            <TextView
+                android:id="@+id/tv_orderinfo_evaluate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:textColor="@color/app_theme"
+                android:textSize="12dip"
+                android:background="@drawable/gray_button_background"
+                android:paddingTop="8dip"
+                android:visibility="gone"
+                android:paddingBottom="8dip"
+                android:paddingLeft="12dip"
+                android:paddingRight="12dip"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
